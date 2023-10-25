@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slide active" style="background: url(img1.jpg);"></div>
+            <div class="slide" style="background: url(img2.jpg);"></div>
+            <div class="slide" style="background: url(img3.jpg);"></div>
+        </div>
+        <div class="slider-controls">
+            <button class="prev-slide" onclick="prevSlide()">Prev</button>
+            <button class="next-slide" onclick="nextSlide()">Next</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
